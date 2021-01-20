@@ -1,4 +1,4 @@
-<?php 
+<?php
 $sidebar = $minti_data['select_bloglayout'];
 
 if($sidebar == 'sidebar-right'){

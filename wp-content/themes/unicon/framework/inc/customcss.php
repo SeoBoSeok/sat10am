@@ -281,7 +281,7 @@ if ( !function_exists( 'minti_dynamic_css' ) ) {
 
 		/* Header V1 */
 		#header.header-v1 { height: {$style_headerheight}; background: {$color_headerbg}; }
-		.header-v1 .logo{ margin-top: {$style_logotopmargin}; }
+		.header-v1 .logo{ margin-top: 19px; }
 		.header-v1 #navigation > ul > li{ height: {$style_headerheight}; padding-top: {$style_navmargintop}; }
 		.header-v1 #navigation .sub-menu{ top: {$style_headerheight}; }
 

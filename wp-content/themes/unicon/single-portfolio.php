@@ -82,7 +82,7 @@ if ( get_post_meta( get_the_ID(), 'minti_portfolio-detaillayout', true ) == "cus
 						<div class="portfolio-item one-third column">
 							<div class="portfolio-image"><a href="<?php echo esc_url($portfoliolink); ?>" class="<?php echo esc_attr($portfoliolink_class); ?>" rel="<?php echo esc_attr($portfoliolink_rel); ?>" title="<?php echo esc_attr(get_the_title()); ?>"><div class="portfolio-image-img"><img src="<?php echo esc_url($portfolio_thumbnail[0]); ?>" alt="<?php echo esc_attr(get_the_title()); ?>" /></div><?php echo '<div class="portfolio-overlay overlay-icon"></div><i class="'.esc_attr($lightboxicon).'"></i>'; ?></a></div>
 							<h4><a href="<?php the_permalink(); ?>" title="<?php the_title() ?>"><?php the_title() ?></a></h4>
-							<span class="portfolio-subtitle"><?php echo esc_html(get_post_meta( get_the_ID(), "minti_subtitle", true )); ?></span>
+							<span class="portfolio-subtitle" ><?php echo esc_html(get_post_meta( get_the_ID(), "minti_subtitle", true )); ?></span>
 						</div>
 
 					   <?php endwhile; wp_reset_postdata(); ?>
